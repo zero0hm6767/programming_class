@@ -15,8 +15,33 @@ a.append(12)
 print(a)
 a.append(16)
 print(a)
+a.pop() 
+print(a)
+a.pop()
+print(a)
 
-a.pop(0) # FIFOで最初のが取り出される
+# Output:
+# [3]
+# [3, 12]
+# [3, 12, 16]
+# [3, 12]
+# [3]
+
+a = []
+a.append(3)
+print(a)
+a.append(12)
+print(a)
+a.append(16)
+print(a)
+a.pop(0) 
 print(a)
 a.pop(0)
 print(a)
+
+# Output:
+# [3]
+# [3, 12]
+# [3, 12, 16]
+# [12, 16]
+# [16]
