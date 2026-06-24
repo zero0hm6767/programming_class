@@ -1,0 +1,5 @@
+{
+    "github.authentication" : false,
+    "git.terminalAuthentication" : false,
+    "github.signin.preferred" : false
+}
