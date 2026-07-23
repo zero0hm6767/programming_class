@@ -1,5 +1,12 @@
 {
     "github.authentication" : false,
     "git.terminalAuthentication" : false,
-    "github.signin.preferred" : false
+    "github.signin.preferred": false,
+    "ROS2.distro": "jazzy",
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
 }

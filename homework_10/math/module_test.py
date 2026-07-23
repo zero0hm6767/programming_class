@@ -1,0 +1,6 @@
+import module
+
+print(module.power(10, 3))
+
+# Output
+# 1000
