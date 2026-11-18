@@ -8,5 +8,6 @@ text = "abc123def456"
 
 result = re.findall(r'\d+', text)
 print(result) 
+
 # Output: ['123', '456']
 # https://regexr.com/ 正規表現を確認するサイト
